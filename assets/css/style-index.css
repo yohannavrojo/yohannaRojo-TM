@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(0 0 0 / 43%);
+  background-blend-mode: darken;
+}
+video {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: -2;
+}
+header h1 {
+  color: #f8e02e;
+  -webkit-text-stroke: 2px #a14a27;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding-top: 9%;
+}
+
+.container__line {
+  background-color: black;
+  height: 73px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__line img {
+  height: 160px;
+  padding-right: 25px;
+}
+.container__line h2 {
+  color: #f8e02e;
+  -webkit-text-stroke: 2px #a14a27;
+  font-family: "Oswald", sans-serif;
+  font-size: 47px;
+  padding: 8px 4px 3px 20px;
+}
+ nav {
+  padding: 10px 20px 1px 30px;
+}
+
+ nav li {
+  list-style: none;
+  line-height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+ nav li a {
+  text-decoration: none;
+  color: #f8e02e;
+  -webkit-text-stroke: 2px #a14a27;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  padding: 12px;
+}
+
+ nav li a:hover {
+  text-shadow: 1px 1px 2px black, 0 0 1em #f8e02e, 0 0 0.2em #f8e02e;
+}
+
+ nav li a:active {
+  color: brown;
+}
+
+ .nav__link__active {
+  text-decoration: none;
+}
+/* main */
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #e1e0e0;
+  font-family: "Oswald", sans-serif;
+  font-size: 17px;
+}
+.container {
+  height: 500px;
+}
+
+.container__description {
+  width: 50%;
+  height: 52%;
+  line-height: 30px;
+  /* padding-left: 10em; */
+  color: #e1e0e0;
+  text-align: center;
+}
+.container__description .description__text {
+  margin-bottom: 20px;
+}
+
+.information {
+  width: 50%;
+  height: 93%;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.details {
+  padding-top: 43px;
+  margin-bottom: 20px;
+}
+caption {
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  color: #f8e02e;
+  -webkit-text-stroke: 0.8px #a14a27;
+  text-shadow: 1px 1px 2px black, 0 0 1em #a14a27, 0 0 0.2em #a14a27;
+  margin-bottom: 18px;
+}
+
+.description_subtitle {
+  font-size: 20px;
+}
+.description__spacing {
+  margin-bottom: 20px;
+}
+
+.description__spacing h2 {
+  color: #f8e02e;
+  -webkit-text-stroke: 1.5px #a14a27;
+}
+/* -----table------ */
+table {
+  margin-top: 60px;
+  padding-bottom: 20px;
+  border-collapse: collapse;
+}
+.description {
+  padding-top: 30px;
+}
+
+.description__header {
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 36px;
+}
+.description__sport {
+  margin-bottom: 30px;
+  line-height: 36px;
+  margin-top: 30px;
+}
+.description__play {
+  margin-bottom: 30px;
+  line-height: 36px;
+  margin-top: 30px;
+}
+th {
+  width: 30em;
+  background-color: #f8e02e;
+  color: black;
+}
+tr {
+  background-color: #682b1f;
+}
+td:hover {
+  background-color: #984624;
+}
+td,
+th {
+  padding: 2px;
+  text-align: center;
+}
+blockquote {
+  padding-left: 48px;
+}
+
+blockquote li {
+  list-style-type: circle;
+}
+
+/*---------info----------*/
+
+.container__info p {
+  font-size: 20px;
+  line-height: 31px;
+  padding-top: 26px;
+}
+
+strong {
+  color: #f8e02e;
+  -webkit-text-stroke: 1.5px #a14a27;
+}
+.container__info a {
+  color: #e1e0e0;
+  text-decoration: none;
+}
+/* --------contact------- */
+
+.contact a {
+  color: #f8e02e;
+  -webkit-text-stroke: 1.5px #a14a27;
+}
