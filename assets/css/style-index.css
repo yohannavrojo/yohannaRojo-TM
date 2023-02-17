@@ -7,8 +7,7 @@
 
 header {
   width: 100%;
-  height: 400px;
-  background-color: rgb(0 0 0 / 43%);
+  height: 237px;
   background-blend-mode: darken;
 }
 video {
@@ -17,46 +16,37 @@ video {
   overflow: hidden;
   object-fit: cover;
   z-index: -2;
-}
-header h1 {
-  color: #f8e02e;
-  -webkit-text-stroke: 2px #a14a27;
-  font-size: 50px;
-  font-family: "Oswald", sans-serif;
-  text-align: center;
-  padding-top: 9%;
+  height: 232px;
 }
 
 .container__line {
-  background-color: black;
   height: 73px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 59px;
 }
 
-.container__line img {
-  height: 160px;
-  padding-right: 25px;
-}
-.container__line h2 {
+
+.container__line h2, .container__description__title {
   color: #f8e02e;
   -webkit-text-stroke: 2px #a14a27;
   font-family: "Oswald", sans-serif;
-  font-size: 47px;
+  font-size: 37px;
   padding: 8px 4px 3px 20px;
 }
- nav {
+nav {
   padding: 10px 20px 1px 30px;
 }
 
- nav li {
+nav li {
   list-style: none;
   line-height: 60px;
   display: flex;
   flex-direction: row;
 }
 
- nav li a {
+nav li a {
   text-decoration: none;
   color: #f8e02e;
   -webkit-text-stroke: 2px #a14a27;
@@ -65,15 +55,12 @@ header h1 {
   padding: 12px;
 }
 
- nav li a:hover {
-  text-shadow: 1px 1px 2px black, 0 0 1em #f8e02e, 0 0 0.2em #f8e02e;
-}
 
- nav li a:active {
+nav li a:active {
   color: brown;
 }
 
- .nav__link__active {
+.nav__link__active {
   text-decoration: none;
 }
 /* main */
@@ -83,50 +70,28 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  color: #e1e0e0;
+  color: #030303;
   font-family: "Oswald", sans-serif;
   font-size: 17px;
+  margin-bottom: 50px;
 }
 .container {
   height: 500px;
 }
 
-.container__description {
-  width: 50%;
-  height: 52%;
-  line-height: 30px;
-  /* padding-left: 10em; */
-  color: #e1e0e0;
-  text-align: center;
-}
-.container__description .description__text {
-  margin-bottom: 20px;
-}
-
-.information {
-  width: 50%;
-  height: 93%;
-  line-height: 30px;
-  margin-bottom: 40px;
-}
 .details {
   padding-top: 43px;
   margin-bottom: 20px;
 }
 caption {
-  font-weight: bold;
+
   font-size: 20px;
   font-style: italic;
   color: #f8e02e;
   -webkit-text-stroke: 0.8px #a14a27;
-  text-shadow: 1px 1px 2px black, 0 0 1em #a14a27, 0 0 0.2em #a14a27;
   margin-bottom: 18px;
 }
 
-.description_subtitle {
-  font-size: 20px;
-}
 .description__spacing {
   margin-bottom: 20px;
 }
@@ -135,38 +100,53 @@ caption {
   color: #f8e02e;
   -webkit-text-stroke: 1.5px #a14a27;
 }
+/* -------info */
+
+.container__description {
+  width: 50%;
+  height: 52%;
+  
+}
+.container__description h2{
+  text-align: center;
+}
+.container__description .description__text {
+  margin-bottom: 20px;
+}
+
+.description {
+  padding-top: 30px;
+}
+
+.description__header, .description__play, .description__sport {
+  margin-bottom: 30px;
+  line-height: 36px;
+}
+.description__text{
+  text-align: center;
+}
+
+strong {
+  color: #f8e02e;
+  -webkit-text-stroke: 1px #a14a27;
+  font-size: 25px;
+}
 /* -----table------ */
 table {
   margin-top: 60px;
   padding-bottom: 20px;
   border-collapse: collapse;
 }
-.description {
-  padding-top: 30px;
-}
 
-.description__header {
-  margin-bottom: 30px;
-  text-align: center;
-  line-height: 36px;
-}
-.description__sport {
-  margin-bottom: 30px;
-  line-height: 36px;
-  margin-top: 30px;
-}
-.description__play {
-  margin-bottom: 30px;
-  line-height: 36px;
-  margin-top: 30px;
-}
+
 th {
   width: 30em;
-  background-color: #f8e02e;
-  color: black;
+  background-color: #f8e12ebc;
+  color:black;
 }
 tr {
-  background-color: #682b1f;
+  background-color: #682b1fc0;
+  color: white;
 }
 td:hover {
   background-color: #984624;
@@ -184,25 +164,141 @@ blockquote li {
   list-style-type: circle;
 }
 
-/*---------info----------*/
-
 .container__info p {
   font-size: 20px;
   line-height: 31px;
   padding-top: 26px;
+  padding-bottom:30px;
+ 
 }
 
-strong {
-  color: #f8e02e;
-  -webkit-text-stroke: 1.5px #a14a27;
-}
+
 .container__info a {
-  color: #e1e0e0;
+  color: black;
   text-decoration: none;
 }
 /* --------contact------- */
-
+.contact{
+  text-align: center;
+}
 .contact a {
   color: #f8e02e;
   -webkit-text-stroke: 1.5px #a14a27;
+  font-size: 30px;
+  padding-bottom:30px;
+}
+/* ---------formulario-------- */
+/* .form{
+  background-image: url(../img/hockey_1.jpg);
+  background-position:center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: white;
+} */
+.container__form {
+  margin-top: 50px;
+  padding: 0px 30px 6px 30px;
+  width: 60%;
+  height: 100%;
+
+}
+fieldset{
+  border: none;
+}
+.container__form input{
+  border: none;
+  outline: 0px;
+}
+span{
+  border-bottom: 1px solid #0000004d;
+}
+
+.container__form__registration h1{
+text-align: center;
+color: #f8e02e;
+-webkit-text-stroke: 1.5px #a14a27;
+
+}
+.form__container__name,.form__container__day{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.form__label{
+  padding: 0px 10px 0px 10px;
+}
+.form__input{
+  background: none;
+}
+.form__container__name .form__label{
+  padding-left:9px;
+}
+.form__container__address, .form__label__gender, .form__container__grade{
+  
+  text-align: center;
+
+}
+
+.form__input__address{
+  width: 521px;
+  background: none;
+}
+
+.form__container__day .form__input__date {
+  width: 239px;
+    text-align: center;
+
+}
+.form__input__date{
+background-color: #e1e0e094;
+
+}
+.form__container__live, .form__container__position, .form__container__size, .form__container__text,.container__signature{
+  padding: 11px 0px 16px 73px;
+}
+.form__container__live__father, .form__container__position__father, .form__container__size__father{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.form__container__text__father{
+  width: 90%;
+  padding-left: 10px;
+}
+
+.container__form__registration h2{
+  padding-left: inherit;
+}
+iframe{
+  width: 202px;
+  height: 115px;
+  border-radius: 9px;
+}
+/* ----------button-------------- */
+.container__button{
+  display: flex;
+  justify-content: center;
+}
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7de2e;
+  width: 200px;
+  height: 37px;
+  border: 2px solid #a14b28;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+/* ---------footer --------------*/
+.container__footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.container__footer img {
+  height: 120px;
+  
 }

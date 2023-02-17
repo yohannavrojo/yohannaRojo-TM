@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style-index.css">
+    <title>Mighty Ducks</title>
+</head>
+
+<body class="form">
+    <header>
+        <video src="../assets/videos/pexels-ron-lach-8970321.mp4" autoplay muted loop></video>
+        
+         <div class="container__line">
+        <h2>Registration Form</h2>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                    <a href="../pages/about.html" >About MDHL</a>
+                    <a href="../pages/information.html">Game information</a>
+                    <a href="../pages/rules.html">Rules</a>
+                    <a href="../pages/contact.html">Contact</a>
+                    <a href="" class="nav__link__active">Form </a>
+                </li>
+            </ul>
+        </nav>
+       
+    </div>
+    </header>
+   
+
+    <main >
+        <div class="container__form ">
+            <form action="./show_data.html" method="get" class="container__form__registration ">
+               
+                <fieldset class="form__container__name">
+                    <label for="name" class="form__label">Player's First Name:</label>
+                    <span><input type="text" name="name" id="name" class="form__input" ></span>
+                    <label for="last-name" class="form__label">Last Name:</label>
+                    <span><input type="text" name="last-name"  id="last-name" class="form__input" ></span> 
+                </fieldset>
+                <fieldset class="form__container__address">
+                    <label for="address" class="form__label">Street Address:</label>
+                    <span><input type="text" name="address" id="address" class="form__input__address"></span>
+                </fieldset>
+
+                <fieldset class="form__container__day">
+                    <label for="date" class="form__label">Birth Date(mm/dd/yyyy):</label>
+                    <input type="date" name="date"  id="date" class="form__input__date">
+                    <h3 class="form__label">Gender:</h3>
+                    <label for="female" class="form__label">Female</label>
+                    <input type="checkbox" name="female"  id="female" class="form__input">
+                    <label for="male" class="form__label">Male</label>
+                    <input type="checkbox" name="male"  id="male" class="form__input">
+                </fieldset>
+
+                <fieldset class="form__container__grade">
+
+                    <h3 class="form__label">Grade:</h3>
+                    <label for="preschool" class="form__label">Pre-School </label>
+                    <input type="checkbox" name="preschool"  id="preschool" class="form__input">
+                    <label for="uno" class="form__label">1st</label>
+                    <input type="checkbox" name="uno"  id="uno" class="form__input">
+                    <label for="dos" class="form__label">2st</label>
+                    <input type="checkbox" name="dos"  id="dos" class="form__input">
+                    <label for="tres" class="form__label">3st</label>
+                    <input type="checkbox" name="tres"  id="tres" class="form__input">
+                    <label for="cuatro" class="form__label">4st</label>
+                    <input type="checkbox" name="cuatro"  id="cuatro" class="form__input">
+                    <label for="cinco" class="form__label">5st</label>
+                    <input type="checkbox" name="cinco"  id="cinco" class="form__input">
+                </fieldset>
+
+                <fieldset class="form__container__live">
+                    <h2>Which elementary school do you live near?</h2>
+                    <h2>Closest School:</h2>
+                    <fieldset class="form__container__live__father">
+                        <fieldset class="form__container__live_one">
+                            <fieldset>
+                                <input type="checkbox" id="aj" name="aj"  class="form__input">
+                                <label for="aj" class="form__label">AJ Katzenmaier</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" id="marjori" name="marjori"  class="form__input">
+                                <label for="marjori"  class="form__label">Marjorie P Hart</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" name="greenbay" id="greenbay" class="form__input">
+                                <label for="greenbay"   class="form__label">Greenbay</label>
+                            </fieldset>
+
+                        </fieldset>
+                        <fieldset class="form__container__live_two">
+                            <fieldset>
+                                <input type="checkbox" name="north" id="north" class="form__input">
+                                <label for="north"   class="form__label">North Elementary</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" id="howard" name="howard" class="form__input">
+                                <label for="howard"   class="form__label">Howard A Yeager</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" id="south" name="south" class="form__input">
+                                <label for="south"   class="form__label">South Elementary</label>
+                            </fieldset>
+
+
+                        </fieldset>
+
+                    </fieldset>
+
+
+                </fieldset>
+                <fieldset class="form__container__position">
+                    <h2>What position(s) do you normally play? (check all that apply)</h2>
+                    <fieldset class="form__container__position__father">
+                        <fieldset class="form__container__position_one">
+                            <fieldset>
+                                <input type="checkbox" id="forward" name="forward" class="form__input">
+                                <label for="forward"  class="form__label">Forward</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" name="midfield" id="midfield" class="form__input">
+                                <label for="midfield"  class="form__label">Midfield</label>
+                            </fieldset>
+
+                        </fieldset>
+                        <fieldset class="form__container__position__two">
+                            <fieldset>
+                                <input type="checkbox" name="defense"  id="defense" class="form__input">
+                                <label for="defense" class="form__label">Defense</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" name="goalkeeper"  id="goalkeeper" class="form__input">
+                                <label for="goalkeeper" class="form__label">Goalkeeper</label>
+                            </fieldset>
+
+                        </fieldset>
+
+                    </fieldset>
+
+                </fieldset>
+
+                <fieldset class="form__container__size">
+                    <h2>Uniform Size:</h2>
+                    <fieldset class="form__container__size__father">
+                        <fieldset class="form__container__size__one">
+                            <fieldset>
+                                <input type="checkbox" name="small" id="small" class="form__input">
+                                <label for="small"  class="form__label">Youth Small</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" name="medium" id="medium" class="form__input">
+                                <label for="medium" class="form__label">Medium</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" name="youth" id="youth" class="form__input">
+                                <label for="youth"  class="form__label"> Youth Medium</label>
+                            </fieldset>
+
+                        </fieldset>
+                        <fieldset class="form__container__size__two">
+
+                            <fieldset>
+                                <input type="checkbox" name="large" id="large" class="form__input">
+                                <label for="large"  class="form__label"> Large</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" name="youth-large"  id="youth-large" class="form__input">
+                                <label for="youth-large" class="form__label"> Youth Large</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" name="extra-large" id="extra-large" class="form__input">
+                                <label for="extra-large"  class="form__label"> Extra-Large</label>
+                            </fieldset>
+                            <fieldset>
+                                <input type="checkbox" name="smail"  id="smail" class="form__input">
+                                <label for="smail" class="form__label"> Smail</label>
+                            </fieldset>
+
+                        </fieldset>
+                     </fieldset>
+                </fieldset>
+
+                <section class="form__container__text">
+                    <h2>Permission to Play</h2>
+                    <fieldset class="form__container__text__father">
+                         <p>l, the parent or guardian of the minor registrant, agree that the registrant and | will abide by
+                        all the
+                        rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                        injury
+                        associated with hockey and in consideration for the “League” accepting the registrant for its
+                        hockey programs and activities, | hereby release, discharge, and/or otherwise indemnify MDHL,
+                        their employees and associated personnel and volunteers,including the facilities used for
+                        practices and games, against any claim by or on behalf of the registrant as a result of the
+                        registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                        activities,which transportation
+                        </p>
+                        
+                        
+                            <p>
+                                By signing below, | herebyagree andauthorizethe above.In addition, by signing below,
+                                lalso
+
+                                acknowledge that | have read the cancellation policy and agree to its terms
+                            </p>
+                        
+
+                   
+                    </fieldset>
+                   
+
+                </section>
+
+                <fieldset class="container__signature">
+                    <fieldset class="container__signature__guardian">
+                        <label for="guardian-signature" class="form__label">Parent/GuardianSignature:</label>
+                        <span> <input type="text" id="guardian-signature"  name="guardian-signature" class="form__input" ></span>
+                    </fieldset>
+                    <fieldset class="container__signature__date">
+                        <label for="date-signature" class="form__label">Date:</label>
+                        <span><input type="text" id="date-signature"  name="date-signature" class="form__input" ></span>
+                    </fieldset>
+
+
+                </fieldset>
+                <div class="container__button">
+                      <button >Enviar</button>
+                </div>
+              
+              <!-- <input type="submit" value="Enviar"> -->
+                
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="container__footer">
+         <img src="../assets/img/Logo_Mighty_ducks-01.png" alt="Logo_Mighty">
+    </footer>
+</body>
+
+</html>
