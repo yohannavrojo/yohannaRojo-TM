@@ -188,13 +188,7 @@ blockquote li {
   padding-bottom:30px;
 }
 /* ---------formulario-------- */
-/* .form{
-  background-image: url(../img/hockey_1.jpg);
-  background-position:center;
-  background-size: cover;
-  background-blend-mode: darken;
-  background-color: white;
-} */
+
 .container__form {
   margin-top: 50px;
   padding: 0px 30px 6px 30px;
