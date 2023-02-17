@@ -82,6 +82,14 @@ main {
   height: 500px;
 }
 
+/* .container__img{ 
+  position: relative;
+  width: 358px;
+  height: 251px;
+ 
+  top: 20px;
+  left: -206px;
+} */
 .details {
   padding-top: 43px;
   margin-bottom: 20px;
